@@ -1,0 +1,72 @@
+
+> bufferutil@4.0.7 install /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/bufferutil
+> node-gyp-build
+
+
+> fsevents@1.2.4 install /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/react-scripts/node_modules/fsevents
+> node install
+
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+Failed to execute '/Users/sreenivas/.nvm/versions/node/v14.16.0/bin/node /Users/sreenivas/.nvm/versions/node/v14.16.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js build --fallback-to-build --module=/Users/sreenivas/Projects/BlockChain/dappazon/node_modules/react-scripts/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64/fse.node --module_name=fse --module_path=/Users/sreenivas/Projects/BlockChain/dappazon/node_modules/react-scripts/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64 --napi_version=7 --node_abi_napi=napi' (1)
+
+> utf-8-validate@5.0.10 install /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/utf-8-validate
+> node-gyp-build
+
+
+> es5-ext@0.10.62 postinstall /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/es5-ext
+>  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+
+
+> web3-shh@1.8.2 postinstall /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/web3-shh
+> echo "WARNING: the web3-shh api will be deprecated in the next version"
+
+WARNING: the web3-shh api will be deprecated in the next version
+
+> web3-shh@1.7.4 postinstall /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/web3/node_modules/web3-shh
+> echo "WARNING: the web3-shh api will be deprecated in the next version"
+
+WARNING: the web3-shh api will be deprecated in the next version
+
+> web3-bzz@1.8.2 postinstall /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/web3-bzz
+> echo "WARNING: the web3-bzz api will be deprecated in the next version"
+
+WARNING: the web3-bzz api will be deprecated in the next version
+
+> web3@1.8.2 postinstall /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/@truffle/interface-adapter/node_modules/web3
+> echo "Web3.js 4.x alpha has been released for early testing and feedback. Checkout doc at https://docs.web3js.org/ "
+
+Web3.js 4.x alpha has been released for early testing and feedback. Checkout doc at https://docs.web3js.org/ 
+
+> web3-bzz@1.7.4 postinstall /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/web3/node_modules/web3-bzz
+> echo "WARNING: the web3-bzz api will be deprecated in the next version"
+
+WARNING: the web3-bzz api will be deprecated in the next version
+
+> web3@1.7.4 postinstall /Users/sreenivas/Projects/BlockChain/dappazon/node_modules/web3
+> echo "WARNING: the web3-shh and web3-bzz api will be deprecated in the next version"
+
+WARNING: the web3-shh and web3-bzz api will be deprecated in the next version
++ @nomicfoundation/hardhat-network-helpers@1.0.8
++ @typechain/hardhat@6.1.5
++ @types/mocha@9.1.1
++ @types/chai@4.3.4
++ @nomiclabs/hardhat-etherscan@3.1.7
++ @typechain/ethers-v5@10.2.0
++ @nomicfoundation/hardhat-chai-matchers@1.0.6
++ @ethersproject/providers@5.7.2
++ chai@4.3.7
++ @nomiclabs/hardhat-ethers@2.2.3
++ ethers@5.7.2
++ typechain@8.1.1
++ hardhat-gas-reporter@1.0.9
++ solidity-coverage@0.7.22
++ ts-node@10.9.1
++ typescript@5.0.4
+added 482 packages from 444 contributors and audited 2858 packages in 126.132s
+
+178 packages are looking for funding
+  run `npm fund` for details
+
+found 123 vulnerabilities (43 low, 27 moderate, 46 high, 7 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
